@@ -59,6 +59,30 @@ Dra igång VSCode och - om du inte redan gjort det - installera tilläggen för 
 10. Vackert! Nu kan du skriva, köra och debugga kod på din Raspberry från din laptomp precis som om det vore lokalt (kind of). 
 
 ### Koppla in din kamera
+![Raspberry Camera module v3](https://projects-static.raspberrypi.org/projects/getting-started-with-picamera/dbf2d9575be4756f79e4293a047a8a531d340710/en/images/pi-camera-attached.jpg)
+Plocka fram en [kamera](https://www.raspberrypi.com/products/camera-module-3/) och följ instruktionerna [här](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2).
+
+För att kolla att kameran verkligen fungerar kan du testa att
+1. Öppna ett terminalfönster i din VSCode som kör mot Raspberryn
+2. Ta en bild genom att köra `libcamera-jpeg -o test.jpg`
+3. Markera test.jpg i VSCode och kolla att bilden ser ok ut.
+
+Vill du labba mer med libcamera kan du hitta lite dokumentation [här](https://www.raspberrypi.com/documentation/computers/camera_software.html)
+
+För att ta en bild m.h.a. lite python-kod kan du prova den här kodsnutten: 
+```
+from picamera2 import Picamera2, Preview
+import time
+picam2 = Picamera2()
+camera_config = picam2.create_preview_configuration()
+picam2.configure(camera_config)
+picam2.start_preview(Preview.DRM)
+picam2.start()
+time.sleep(2)
+picam2.capture_file("test.jpg")
+```
+
+Manualen för Picamera2 hitter du [här](https://datasheets.raspberrypi.com/camera/picamera2-manual.pdf).
 
 ### Använda CounterFit
 
