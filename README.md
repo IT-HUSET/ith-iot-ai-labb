@@ -59,7 +59,8 @@ Dra igång VSCode och - om du inte redan gjort det - installera tilläggen för 
 10. Vackert! Nu kan du skriva, köra och debugga kod på din Raspberry från din laptomp precis som om det vore lokalt (kind of). 
 
 ### Koppla in din kamera
-![Raspberry Camera module v3](https://projects-static.raspberrypi.org/projects/getting-started-with-picamera/dbf2d9575be4756f79e4293a047a8a531d340710/en/images/pi-camera-attached.jpg)
+![Raspberry Camera module v3](https://cdn.windowsreport.com/wp-content/uploads/2020/05/Raspberry-Pi-camera-not-detected.jpg)
+
 Plocka fram en [kamera](https://www.raspberrypi.com/products/camera-module-3/) och följ instruktionerna [här](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2).
 
 För att kolla att kameran verkligen fungerar kan du testa att
