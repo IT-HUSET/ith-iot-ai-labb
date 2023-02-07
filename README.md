@@ -7,6 +7,8 @@
 
 ### Installera ett os
 
+![Raspi imager](https://www.seeedstudio.com/blog/wp-content/uploads/2021/03/Screenshot-2021-03-22-at-11.49.41-AM.png)
+
 Första steget är att installera senaste versionen av [Raspberry Pi OS](https://en.wikipedia.org/wiki/Raspberry_Pi_OS) på ett microSD minneskort. Du behöver 
 
 1. En minneskortsläsare för microSD kort (Svante har med sig)
@@ -21,10 +23,11 @@ Koppla ihop läsare-kort-dator och kör igång Raspberry Pi Imager. Du väljer f
 **Innan** du trycker på WRITE går du in i settings via kugghjulet och gör lite anpassningar enligt nedan. 
 
 1. Sätt ett hostname (t.ex. <ditt_namn>_raspberry) så att du enkelt kan koppla upp dig mot din Raspberry från din laptop.
-2. Kryssa i att SSH ska vara påslaget med 'Use password authentication' ikryssat.
-3. Kryssa i 'Set username and password'. Username 'pi' och Password 'raspberry' är vanliga värden, högst osäkert alltså men praktiskt.
-4. Tänker du koppla dig mot din Raspberry via ett WLAN kan du konfigurera det redan här. Fyll i SSID och lösenord och vilket land vi sitter i om du är ambitiös. 
-5. Locale kan också vara skönt att få rätt redan vid installation.
+2. Kryssa i att SSH skpi
+3. a vara påslaget med 'Use password authentication' ikryssat.
+4. Kryssa i 'Set username and password'. Username 'pi' och Password 'raspberry' är vanliga värden, högst osäkert alltså men praktiskt.
+5. Tänker du koppla dig mot din Raspberry via ett WLAN kan du konfigurera det redan här. Fyll i SSID och lösenord och vilket land vi sitter i om du är ambitiös. Sitter du på Rådhuset är SSID 'United Spaces' och lösenordet är 'USWFB2017'.
+6. Locale kan också vara skönt att få rätt redan vid installation.
 
 **Nu** kan du trycka på WRITE :-)
 
@@ -55,6 +58,7 @@ Dra igång VSCode och - om du inte redan gjort det - installera tilläggen för 
 9. Kör filen i ditt terminalfönster (`python3 hello.py`) och verifiera att allt ser ut som det ska.
 10. Vackert! Nu kan du skriva, köra och debugga kod på din Raspberry från din laptomp precis som om det vore lokalt (kind of). 
 
+### Koppla in din kamera
 
 ### Använda CounterFit
 
