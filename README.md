@@ -23,8 +23,7 @@ Koppla ihop läsare-kort-dator och kör igång Raspberry Pi Imager. Du väljer f
 **Innan** du trycker på WRITE går du in i settings via kugghjulet och gör lite anpassningar enligt nedan. 
 
 1. Sätt ett hostname (t.ex. <ditt_namn>_raspberry) så att du enkelt kan koppla upp dig mot din Raspberry från din laptop.
-2. Kryssa i att SSH skpi
-3. a vara påslaget med 'Use password authentication' ikryssat.
+2. Kryssa i att SSH ska vara påslaget med 'Use password authentication' ikryssat.
 4. Kryssa i 'Set username and password'. Username 'pi' och Password 'raspberry' är vanliga värden, högst osäkert alltså men praktiskt.
 5. Tänker du koppla dig mot din Raspberry via ett WLAN kan du konfigurera det redan här. Fyll i SSID och lösenord och vilket land vi sitter i om du är ambitiös. Sitter du på Rådhuset är SSID 'United Spaces' och lösenordet är 'USWFB2017'.
 6. Locale kan också vara skönt att få rätt redan vid installation.
