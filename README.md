@@ -55,7 +55,7 @@ Dra igång VSCode och - om du inte redan gjort det - installera tilläggen för 
 7. Öppna foldern i VSCode
 8. Skapa en fil (t.ex. 'hello.py'), och lägg till lite python kod t.ex. `print("Hello IoT")`
 9. Kör filen i ditt terminalfönster (`python3 hello.py`) och verifiera att allt ser ut som det ska.
-10. Vackert! Nu kan du skriva, köra och debugga kod på din Raspberry från din laptomp precis som om det vore lokalt (kind of). 
+10. Vackert! Nu kan du skriva, köra och debugga kod på din Raspberry från din laptop precis som om det vore lokalt (kind of). 
 
 ### Koppla in din kamera
 ![Raspberry Camera module v3](https://cdn.windowsreport.com/wp-content/uploads/2020/05/Raspberry-Pi-camera-not-detected.jpg)
