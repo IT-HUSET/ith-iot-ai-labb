@@ -1,7 +1,7 @@
 # IT-HUSETS kompetenskvällar för IoT och AI
 
 ![Snodd bild med IoT + AI = AIoT](https://tm.shgstatic.com/prod/public/inline-images/AIoT.png)
-## Instruktioner för första labbtillfället
+## Instruktioner för del ett
 
 [Här](https://youtu.be/YI772q5v3yI) är en bra genomgång av allt som tas upp nedan.
 
